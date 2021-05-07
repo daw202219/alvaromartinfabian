@@ -10,5 +10,12 @@ public class Comercial {
 		this.precio = precio;
 		this.nombre = nombre;
 	}
+
+	@Override
+	public String toString() {
+		return "Comercial [precio=" + precio + ", nombre=" + nombre + "]";
+	}
+	
+
 	
 }
